@@ -15,20 +15,7 @@ buttons.forEach(button=>{
             const stepElem = document.querySelector(`.step.step${currentStep}`);
             stepElem.classList.add('step-completed');
         }
-        switch(currentStep){
-            case(1):
-                progressBar.updateProgress('0%');
-                break;
-            case(2):
-                progressBar.updateProgress('33%');
-                break;
-            case(3):
-                progressBar.updateProgress('66%');
-                break;
-            case(4):
-                progressBar.updateProgress('100%')
-                break;
-        }
+        progressBar.updateProgress(`${(currentStep - 1) * 33.33}%`)
     })
 })
 progressContainer.appendChild(progressBar.progressBar);
