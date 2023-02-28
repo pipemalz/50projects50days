@@ -11,7 +11,7 @@ imgArr.forEach(img=>{
                     img.firstElementChild.classList.add('active');
                 }
             }else{
-                img.classList.remove('img-big')
+                img.classList.remove('img-big');
                 img.classList.add('img-small');
                 img.firstElementChild.classList.remove('active')
                 img.firstElementChild.classList.add('inactive');
