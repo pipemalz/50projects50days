@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #333;
+    color: antiquewhite;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.title {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.content {
+    width: 400px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #666;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .2);
+    transition-duration: .5s;
+}
+
+.content p{
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+}
+
+.content:nth-child(even){
+    transform: translateX(-200%);
+}
+
+.content:nth-child(odd){
+    transform: translateX(200%);
+}
+
+.content.visible{
+    transform: translateX(0%);
+    transition-duration: .5s;
+}
