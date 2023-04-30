@@ -43,11 +43,11 @@
 }
 
 .content:nth-child(even){
-    transform: translateX(-200%);
+    transform: translateX(-100vw);
 }
 
 .content:nth-child(odd){
-    transform: translateX(200%);
+    transform: translateX(100vw);
 }
 
 .content.visible{
