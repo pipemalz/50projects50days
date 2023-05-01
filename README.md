@@ -9,3 +9,4 @@
 | Hidden Search Widget | [Live Demo](https://pipemalz.github.io/50projects50days/hidden_search/) |
 | Scroll Animation | [Live Demo](https://pipemalz.github.io/50projects50days/scroll_animation/) |
 | Split Landing Page | [Live Demo](https://pipemalz.github.io/50projects50days/split_landing_page/) |
+| Form Input Waves | [Live Demo](https://pipemalz.github.io/50projects50days/form_input_wave/) |
